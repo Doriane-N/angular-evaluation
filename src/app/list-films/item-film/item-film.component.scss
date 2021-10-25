@@ -1,0 +1,54 @@
+article {
+  background-color: transparent;
+  border: none;
+}
+
+.card {
+  width: 296.9px;
+}
+
+.poster {
+  height: 420px;
+  background-color: lightgrey;
+}
+
+.card img {
+  height: 100%;
+}
+
+.card-title {
+  display: inline;
+}
+
+.c-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h5, h6, p, button, a {
+  font-family: didot, serif;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.buttons {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+.details {
+  text-align: right;
+}
+
+ngb-accordion {
+  background-color: white;
+}
+
+.acc-title {
+  color: white;
+  text-decoration: none;
+}

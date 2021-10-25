@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-md navbar-light" id="navbar">
+  <span class="navbar-brand">
+    Navigation
+  </span>
+  <button class="navbar-toggler" type="button" aria-controls="navbarContent" [attr.aria-expanded]="!collapsed" aria-label="Toggle navigation" (click)="collapsed = !collapsed">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar-collapse" [class.collapse]="collapsed" id="navbarContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" tabindex="0" id="navbar1" role="button" routerLink="/home" (click)="$event.preventDefault()">
+          Home
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" tabindex="0" id="navbar1" role="button" routerLink="/movies" (click)="$event.preventDefault()">
+          Movies list
+        </a>
+      </li>
+
+    </ul>
+  </div>
+</nav>

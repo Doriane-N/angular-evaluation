@@ -1,0 +1,12 @@
+<div class="main-container">
+
+  <h1>{{titre | titlecase}}</h1>
+
+  <div class="row list">
+    <app-item-film *ngFor="let film of films" [film]="film"
+    (increaseScoreItemEvent)="updateFilm($event)"
+    (decreaseScoreItemEvent)="updateFilm($event)">
+    </app-item-film>
+  </div>
+
+</div>
